@@ -1,0 +1,24 @@
+/src/testing
+
+#compiled class file
+*.class
+
+#Log file
+*.log
+
+#BlueJ files
+*.ctxt
+
+#Mobile tools for java
+.mtj.tmp/
+
+#Package files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+#virtual machine crash logs
+hs_err_pid*
