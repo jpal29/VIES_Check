@@ -16,6 +16,8 @@ public class ViesValidation {
 		
 	}
 	
+	//Test comment
+	
 	public static boolean ValidFormat( String[] args, String vatNumber ) {
 		/* Need to define this in case country code isn't included */
 		Map<String, String> CountryMap = new HashMap<String, String>();
