@@ -5,12 +5,12 @@ and their [SOAP API](http://ec.europa.eu/taxation_customs/vies/checkVatTestServi
 To check if VAT number is a valid format:
 
 ```java
-import VIES_Check.ViesValidation
+import vat.ViesValidation
 boolean ValidFormat = ViesValidation.ValidFormat(args, "GB33333333");
 ```
 
 To check if a VAT number is valid per the VIES database:
 ```java
-import VIES_Check.ViesValidation
+import vat.ViesValidation
 boolean ValidNumber = ViesValidation.ValidNumber(args, "GB", "3333333");
 ```
